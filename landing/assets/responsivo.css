@@ -1,0 +1,97 @@
+@media (max-width: 1024px) {
+  .hero {
+      flex-direction: column;
+      height: auto;
+      gap: 2rem;
+      text-align: center;
+  }
+
+  .hero-imagens-container {
+      max-width: 100%;
+      column-count: 3;
+      padding: 0 1rem;
+  }
+
+  .receitas-card-container {
+      padding: 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+  }
+
+  .menu {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+
+  .hero {
+      padding: 2rem 1rem;
+  }
+
+  .hero-imagens-container {
+      column-count: 2;
+      margin: 0;
+  }
+
+  .receitas {
+      padding: 2rem 1rem;
+  }
+
+  .receitas-card-container {
+      flex-direction: column;
+      padding: 0;
+      align-items: center;
+  }
+
+  .receitas-card {
+      flex-basis: auto;
+      width: 100%;
+  }
+
+  .hero h1 {
+      font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-imagens-container {
+      column-count: 1;
+  }
+
+  .logo {
+      font-size: 1.5rem;
+  }
+
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .seta-container img {
+      width: 40px;
+  }
+
+  .receitas-titulo {
+      font-size: 1.5rem;
+  }
+
+  .receitas-subtitulo {
+      font-size: 0.9rem;
+  }
+
+  .receita-titulo {
+      font-size: 1rem;
+  }
+
+  .receita-avaliacao {
+      font-size: 0.9rem;
+  }
+
+  .github {
+      font-size: 0.9rem;
+  }
+}
